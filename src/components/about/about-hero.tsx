@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import Text from '@/components/ui/typography/text';
 import Button from '@/components/ui/button';
 
-export default function PricingHero({
+export default function AboutHero({
   state,
   onClick,
 }: {

@@ -26,29 +26,29 @@ import { Routes } from '@/config/routes';
 const termsandcondition = [
   {
     label: 'Terms of use',
-    path: Routes.public.termsandcondition,
+    path: Routes.public.termsofuse,
   },
   {
-    label: 'Cancellations - Refunds',
+    label: 'FAQ',
     path: Routes.public.faq,
   },
   {
     label: 'Payments',
-    path: Routes.public.GuestReviews,
+    path: Routes.public.Payments,
   },
-  {
-    label: 'Copyright',
-    path: Routes.public.Comment,
-  },
+  // {
+  //   label: 'Copyright',
+  //   path: Routes.public.Comment,
+  // },
   {
     label: 'Privacy',
-    path: Routes.public.Comment,
+    path: Routes.public.Policy,
   }
 ];
 const usefullinks = [
   {
     label: 'Essential Oil',
-    path: Routes.public.AboutUs,
+    // path: Routes.public.AboutUs,
   },
   {
     label: 'Fragrance Oil',
@@ -56,15 +56,15 @@ const usefullinks = [
   },
   {
     label: 'Absolute Oil',
-    path: Routes.public.GuestReviews,
+    path: Routes.public.Payments,
   },
   {
     label: 'Attars',
-    path: Routes.public.Comment,
+    // path: Routes.public.Comment,
   },
   {
     label: 'Carrier Oil',
-    path: Routes.public.Comment,
+    // path: Routes.public.Comment,
   }
 ];
 const CustomerServices = [

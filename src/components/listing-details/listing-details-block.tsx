@@ -14,7 +14,7 @@ import ReviewBlock from '@/components/listing-details/review-block';
 import ChatBlock from '@/components/listing-details/chat-block';
 import { useModal } from '@/components/modals/context';
 import Button from '@/components/ui/button';
-import ProductInformation from '../pricing/pricing-testimonials';
+import ProductInformation from '../about/pricing-testimonials';
 
 export default function ListingDetails() {
   const { openModal } = useModal();

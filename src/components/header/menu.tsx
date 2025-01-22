@@ -18,7 +18,7 @@ const menuItems = [
   {
     id: 2,
     label: 'About',
-    path: Routes.public.pricing,
+    path: Routes.public.about,
   },
   {
     id: 3,

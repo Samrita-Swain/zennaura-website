@@ -7,7 +7,7 @@ export const topBoats = [
     // time: "3 - 8 hours",
     caption: "Aguacate Gel Fragrance Oil",
     // title: "Perfect set up for Lake Union cruising.",
-    // slug: "perfect-set-up-for-lake-union-cruising",
+    slug: "Aguacate-gel-fragrance-oil",
     location: "Fragrance Oil",
     price: "$260",
     rating: 4.5,

@@ -1,4 +1,4 @@
-import Comment from "@/components/owner-comments/comment";
+import Policy from "@/components/policy/policy";
 import SubscriptionBlock from "@/components/subscription/subscription-block";
 
 
@@ -6,7 +6,7 @@ import SubscriptionBlock from "@/components/subscription/subscription-block";
 export default function page() {
     return (
       <div>
-        <Comment/>
+        <Policy />
         <SubscriptionBlock sectionClassName="4xl:!px-16" />
       </div>
     );

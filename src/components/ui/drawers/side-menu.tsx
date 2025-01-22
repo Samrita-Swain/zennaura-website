@@ -132,7 +132,7 @@ const menu = [
   {
     name: 'about',
     icon: <CubeIcon className="h-auto w-5" />,
-    path: Routes.public.pricing,
+    path: Routes.public.about,
   },
   {
     name: 'products',

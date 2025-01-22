@@ -162,23 +162,12 @@
 //       }}
 //     />
 //   );
-// }
-
-
-
-
-
 
 'use client';
 
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useQueryParam } from '@/hooks/use-query-param';
-import { JetskiBoatIcon } from '@/components/icons/boat-types/jetski-boat';
-import { MotorBoatIcon } from '@/components/icons/boat-types/motor-boat';
-import { HouseBoatIcon } from '@/components/icons/boat-types/house-boat';
-import { RibBoatIcon } from '@/components/icons/boat-types/rib-boat';
-import { SailBoatIcon } from '@/components/icons/sail-boat';
 import SelectBox from '@/components/ui/select-box';
 
 type OptionType = {

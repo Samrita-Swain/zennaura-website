@@ -1,4 +1,4 @@
-import GuestReviews from "@/components/guest-reviews/guest-reviews";
+import Payments from "@/components/payments/payments";
 import SubscriptionBlock from "@/components/subscription/subscription-block";
 
 
@@ -6,7 +6,7 @@ import SubscriptionBlock from "@/components/subscription/subscription-block";
 export default function page() {
     return (
       <div>
-        <GuestReviews/>
+        <Payments />
         <SubscriptionBlock sectionClassName="4xl:!px-16" />
       </div>
     );

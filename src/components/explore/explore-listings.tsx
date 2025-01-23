@@ -1,7 +1,6 @@
 'use client';
 
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { topBoats } from 'public/data/top-boats';
 import ListingCard from '@/components/ui/cards/listing';
 import Button from '@/components/ui/button';

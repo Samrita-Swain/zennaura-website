@@ -5,7 +5,8 @@ import Accordion from '@/components/ui/accordion';
 
 const data = [
   {
-    title: "What is the difference between essential oils, absolute oils, fragrance oils, and attars?",
+    title:
+      'What is the difference between essential oils, absolute oils, fragrance oils, and attars?',
     text: `
 Essential Oils:- Pure, plant-derived oils used for therapeutic and aromatic purposes.
   Absolute Oils:-Highly concentrated oils extracted using solvents, often for delicate flowers.
@@ -18,14 +19,15 @@ Essential Oils:- Pure, plant-derived oils used for therapeutic and aromatic purp
   },
   {
     title: 'Can I apply your oils directly to my skin?',
-    text: 'Essential and absolute oils should be diluted with a carrier oil (e.g., coconut or jojoba oil) before applying to the skin. Attars are typically ready for direct use, but a patch test is recommended.'
-   },
+    text: 'Essential and absolute oils should be diluted with a carrier oil (e.g., coconut or jojoba oil) before applying to the skin. Attars are typically ready for direct use, but a patch test is recommended.',
+  },
   {
     title: 'Are your oils safe for children and pets?',
-    text: ' Some oils may not be suitable for children or pets. Consult a healthcare professional or veterinarian before use. '},
+    text: ' Some oils may not be suitable for children or pets. Consult a healthcare professional or veterinarian before use. ',
+  },
   {
     title: 'How should I store your oils?',
-    text: 'Store oils in a cool, dry place away from direct sunlight and heat. Keep the caps tightly sealed to prevent oxidation.'
+    text: 'Store oils in a cool, dry place away from direct sunlight and heat. Keep the caps tightly sealed to prevent oxidation.',
   },
   {
     title: ' How do I perform a patch test?',
@@ -42,7 +44,7 @@ Essential Oils:- Pure, plant-derived oils used for therapeutic and aromatic purp
   {
     title: 'Can I return or exchange a product?',
     text: 'Please refer to our Return Policy for eligibility and instructions on returns or exchanges.',
-  }
+  },
 ];
 
 export default function FAQTestimonial() {

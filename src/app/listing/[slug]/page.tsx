@@ -43,11 +43,13 @@ import GallaryBlock from '@/components/listing-details/gallary-block';
 
 // Assuming PageProps is the correct type for your page component
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;  // params is now a promise
 }
 
-export default function ListingDetailsPage({ params }: PageProps) {
-  const { slug } = params;  // Correctly extracting slug from params
+// Mark the page as async since we're awaiting params
+export default async function ListingDetailsPage({ params }: PageProps) {
+  // Await the params object to get the resolved slug
+  const { slug } = await params;
 
   return (
     <>

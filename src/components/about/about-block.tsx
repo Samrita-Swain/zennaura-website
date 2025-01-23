@@ -1,8 +1,7 @@
 'use client';
 
 
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 // import PricingCard from '@/components/pricing/pricing-card';
 import AboutHero from '@/components/about/about-hero';
 // import {
